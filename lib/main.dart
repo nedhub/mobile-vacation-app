@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_travel_ui_starter/screens/home_screen.dart';
 
+//EMEMANKA CHINEDU
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -11,9 +13,10 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Travel UI',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primaryColor: Color(0xFF3EBACE),
-        accentColor: Color(0xFFD8ECF1),
-        scaffoldBackgroundColor: Color(0xFFF3F5F7),
+        // fontFamily: "Big Shoulders Display",
+        primaryColor: Color(0xFFE33124),
+        accentColor: Color(0xFF0655B),
+        scaffoldBackgroundColor: Color(0xFFF0E65b),
       ),
       home: HomeScreen(),
     );
